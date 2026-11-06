@@ -1,0 +1,98 @@
+
+/* ================= RESET ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================= FUNDO DA PAGINA ================= */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    color: aliceblue;
+    background-color: #000;
+
+    background-image:
+        linear-gradient(rgba(0, 8, 18, 0.65), rgba(0, 8, 18, 0.80)),
+        url("../img/imgtop.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    line-height: 1.6;
+    padding: 25px 15px;
+}
+
+/* ================= CABECALHO ================= */
+header {
+    max-width: 1000px;
+    margin: 0 auto 35px;
+    padding: 30px 20px;
+
+    text-align: center;
+    background-color: rgba(5, 20, 35, 0.88);
+    border: 2px solid #168bd2;
+    border-radius: 8px;
+
+    box-shadow: 0 0 18px rgba(0, 153, 255, 0.25);
+}
+
+header h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 48px;
+    color: #65d5ff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d4e8f5;
+    margin-top: 10px;
+}
+
+/* ================= CONTEUDO PRINCIPAL ================= */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+main > h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: #65d5ff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+/* ================= FICHAS DAS FONTES ================= */
+section {
+    background-color: rgba(7, 21, 34, 0.92);
+    border: 1px solid #38bdf8;
+    text-align: center;
+
+    max-width: 800px;
+    margin: 25px auto;
+    padding: 25px;
+
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.15);
+}
+
+/* Imagens das fichas */
+section img {
+    width: 100%;
+    max-width: 350px;
+    max-height: 230px;
+    object-fit: cover;
+
+    border: 1px solid #287ca8;
+    border-radius: 5px;
+    margin: 15px auto;
+}
